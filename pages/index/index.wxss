@@ -1,0 +1,29 @@
+/**index.wxss**/
+
+.all-wrap{
+   display: flex;
+   flex-direction: column; 
+    justify-content: space-around;
+}
+.userinfo{
+  display: flex;
+
+  justify-content: center;
+}
+
+.userinfo .userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border: 2rpx solid #eee;
+  
+}
+
+.userinfo .item{
+  font-size: 28rpx;
+  color: #666;
+  display: flex;
+  align-items: center;
+  margin-left: 30rpx;
+}
+

@@ -1,0 +1,8 @@
+<!-- 加载用户信息 -->
+<view class="all-wrap">
+  <view class="userinfo"> 
+   <image class="userinfo-avatar" src="{{avatarUrl}}"></image>
+   <text class="item">{{date}}</text> 
+  </view>
+
+</view>
